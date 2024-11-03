@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
@@ -9,12 +9,18 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-<h2>Working Papers</h2>
+<h2>Publications</h2>
 <ul>
 {% for post in site.publications reversed %}
   <li>
     <strong>{{ post.title }}</strong><br>
-    <em>with {{ post.authors | join: ', ' }}</em><br>
+    {% if post.authors.size == 1 %}
+      <em>Co-author: {{ post.authors[0] }}</em><br>
+    {% elsif post.authors.size == 2 %}
+      <em>Co-authors: {{ post.authors[0] }} and {{ post.authors[1] }}</em><br>
+    {% else %}
+      <em>Co-authors: {{ post.authors[0] }} and {{ post.authors[1] }} and {{ post.authors.size | minus: 2 }} others</em><br>
+    {% endif %}
     <p><strong>Abstract:</strong> {{ post.excerpt }}</p>
   </li>
 {% endfor %}
