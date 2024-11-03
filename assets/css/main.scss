@@ -40,9 +40,9 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-.author img {
-    border-radius: 0;         /* This removes the oval shape for a square */
-    width: 150px;             /* Adjust this width to make the image bigger */
-    height: 150px;            /* Ensure the height matches the width for a square */
-    object-fit: cover;        /* This ensures the image fills the box without distortion */
+.author__avatar, .avatar {
+    border-radius: 0; /* Removes oval shape */
+    width: 150px; /* Adjust width to desired size */
+    height: auto; /* Maintains the original aspect ratio */
+    object-fit: cover; /* Optional: Crops the image if necessary */
 }
