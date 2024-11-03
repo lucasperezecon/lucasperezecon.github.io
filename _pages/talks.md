@@ -11,7 +11,7 @@ author_profile: true
 
 <h2>Talks and Presentations</h2>
 
->>>>>>>> - **Title of Talk 1**  
+> - **Title of Talk 1**  
 >   *Event:* Conference Name, City  
 >   *Date:* Month Year  
 >   Brief description of the talk or key points covered.
