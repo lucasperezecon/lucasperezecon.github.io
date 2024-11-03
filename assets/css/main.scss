@@ -40,8 +40,9 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-.profile-picture {
-    border-radius: 0;
-    width: 150px; // Adjust the width as needed
-    height: auto; // Keeps aspect ratio
+/* Increase specificity */
+div.author__avatar img {
+    border-radius: 0 !important; /* Force rectangle shape */
+    width: auto;
+    height: auto;
 }
