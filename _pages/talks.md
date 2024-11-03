@@ -1,5 +1,5 @@
 ---
-layout: page  # or "archive" if that looks better
+layout: page  # or "archive" if you prefer that styling
 title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
@@ -9,26 +9,21 @@ author_profile: true
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 {% endif %}
 
-<h2 style="margin-left: 40px;">Talks and Presentations</h2>
+<h2>Talks and Presentations</h2>
 
-<div style="margin-left: 40px;"> <!-- Add left margin to push content to the right -->
+> - **Title of Talk 1**  
+>   *Event:* Conference Name, City  
+>   *Date:* Month Year  
+>   Brief description of the talk or key points covered.
+>
+> - **Title of Talk 2**  
+>   *Event:* Conference Name, City  
+>   *Date:* Month Year  
+>   Brief description of the talk.
+>
+> - **Title of Talk 3**  
+>   *Event:* Another Conference, Different City  
+>   *Date:* Month Year  
+>   Summary of the topic and any special notes.
 
-
-## Talks and Presentations
-
-<!-- You can use Markdown for each talk entry, and HTML for styling if needed -->
-            
-**2024**  
-- 21st Occasional Workshop in Environmental and Resource Economics (UC Santa Barbara)
-- emLab Roundtable Discussion (UC Santa Barbara)
-- Journées Microéconomie Appliquée (Lille, France)
-- Doctorissimes Conference (Paris, France)
-- Occasional Empirical Environmental Group Seminar (PSE)
-- 2024 FAERE Doctoral Workshop (Annecy, France)
-
-**2023**
-- 11th Mannheim Conference on Energy and the Environment (Mannheim, Germany)
-- 10th FAERE annual conference (Montpellier, France)
-- PhD Students Seminar (PSE)
-
-<!-- Add more talks as needed -->
+> <!-- Add more talks as needed -->
