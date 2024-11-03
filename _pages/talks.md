@@ -9,17 +9,6 @@ author_profile: true
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 {% endif %}
 
-<div style="display: flex;">
-
-    <div style="flex: 1; padding: 20px;">
-        <!-- This is where your profile will be displayed -->
-        {% include author.html %}
-    </div>
-
-    <div style="flex: 2; padding: 20px;">
-        <h2>Talks and Presentations</h2>
-
-        <!-- List your talks in Markdown format -->
 ## Talks and Presentations
 
 <!-- You can use Markdown for each talk entry, and HTML for styling if needed -->
