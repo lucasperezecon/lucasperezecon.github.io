@@ -22,9 +22,9 @@ author_profile: true
     - Occasional Empirical Environmental Group Seminar (PSE)
     - 2024 FAERE Doctoral Workshop (Annecy, France)
 
-- **2023**  
- 	- 11th Mannheim Conference on Energy and the Environment
-	- 10th FAERE annual conference 
-	- PSE PhD Students Seminar
+- **2023**
+    - 11th Mannheim Conference on Energy and the Environment
+    - 10th FAERE annual conference
+    - - PSE PhD Students Seminar
 
 <!-- Add more talks as needed -->
