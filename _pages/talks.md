@@ -9,25 +9,22 @@ author_profile: true
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 {% endif %}
 
-    - **Title of Talk 1**  
 
 ## Talks and Presentations
 
 <!-- You can use Markdown for each talk entry, and HTML for styling if needed -->
 
-- **Title of Talk 1**  
-  *Event:* Conference Name, City  
-  *Date:* Month Year  
-  Brief description of the talk or key points covered.
+- **2024**  
+    - 21st Occasional Workshop in Environmental and Resource Economics (UC Santa Barbara)
+    - emLab Roundtable Discussion (UC Santa Barbara)
+    - Journées Microéconomie Appliquée (Lille, France)
+    - Doctorissimes Conference (Paris, France)
+    - Occasional Empirical Environmental Group Seminar (PSE)
+    - 2024 FAERE Doctoral Workshop (Annecy, France)
 
-- **Title of Talk 2**  
-  *Event:* Conference Name, City  
-  *Date:* Month Year  
-  Brief description of the talk.
-
-- **Title of Talk 3**  
-  *Event:* Another Conference, Different City  
-  *Date:* Month Year  
-  Summary of the topic and any special notes.
+- **2023**  
+ 	- 11th Mannheim Conference on Energy and the Environment
+	- 10th FAERE annual conference 
+	- PSE PhD Students Seminar
 
 <!-- Add more talks as needed -->
