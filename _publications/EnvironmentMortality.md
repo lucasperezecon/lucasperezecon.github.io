@@ -1,5 +1,5 @@
 ---
-title: "2. Revisiting the Environment-Mortality Link with Nonlinear Econometric Models"
+title: "Revisiting the Environment-Mortality Link with Nonlinear Econometric Models"
 collection: publications
 category: working_papers
 authors:
