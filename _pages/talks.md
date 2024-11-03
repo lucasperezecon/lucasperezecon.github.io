@@ -9,9 +9,6 @@ author_profile: true
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 {% endif %}
 
-<div style="text-align: center;">
-    <h2>Talks and Presentations</h2>
-
     - **Title of Talk 1**  
 
 ## Talks and Presentations
