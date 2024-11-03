@@ -16,6 +16,10 @@ author_profile: true
         {% include author.html %}
     </div>
 
+    <div style="flex: 2; padding: 20px;">
+        <h2>Talks and Presentations</h2>
+
+        <!-- List your talks in Markdown format -->
 ## Talks and Presentations
 
 <!-- You can use Markdown for each talk entry, and HTML for styling if needed -->
