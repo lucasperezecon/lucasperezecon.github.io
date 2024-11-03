@@ -14,10 +14,10 @@ main:
     
   - title: "Teaching"
     url: /teaching/    
-    
-- title: "Talks"
-  url: /talks/
-  external: false 
+      
+  - title: "Talks"
+    url: /talks/
+    external: false 
     
   - title: "CV"
     url: /cv/
