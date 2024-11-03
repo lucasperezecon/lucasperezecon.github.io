@@ -1,6 +1,7 @@
 ---
 title: "Paper Title Number 1"
 collection: publications
+catefory: working_papers
 authors:
   - "coauthor 1"
   - "coauthor 2"
