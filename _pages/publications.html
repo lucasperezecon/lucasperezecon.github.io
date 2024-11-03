@@ -27,7 +27,7 @@ author_profile: true
           <em>with {{ post.authors[0] }} and {{ post.authors[1] }} and {{ post.authors.size | minus: 2 }} others</em><br>
         {% endif %}
       {% endif %}
-      {% if post.excerpt %}
+      {% if post.excerpt != "" %}
         <p><strong>Abstract:</strong> {{ post.excerpt }}</p>
       {% endif %}
     </li>
@@ -50,7 +50,7 @@ author_profile: true
           <em>with {{ post.authors[0] }} and {{ post.authors[1] }} and {{ post.authors.size | minus: 2 }} others</em><br>
         {% endif %}
       {% endif %}
-      {% if post.excerpt %}
+      {% if post.excerpt != "" %}
         <p><strong>Abstract:</strong> {{ post.excerpt }}</p>
       {% endif %}
     </li>
