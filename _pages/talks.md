@@ -14,17 +14,17 @@ author_profile: true
 
 <!-- You can use Markdown for each talk entry, and HTML for styling if needed -->
             
-            **2024**  
-            - 21st Occasional Workshop in Environmental and Resource Economics (UC Santa Barbara)
-            - emLab Roundtable Discussion (UC Santa Barbara)
-            - Journées Microéconomie Appliquée (Lille, France)
-            - Doctorissimes Conference (Paris, France)
-            - Occasional Empirical Environmental Group Seminar (PSE)
-            - 2024 FAERE Doctoral Workshop (Annecy, France)
-            
-            **2023**
-            - 11th Mannheim Conference on Energy and the Environment (Mannheim, Germany)
-            - 10th FAERE annual conference (Montpellier, France)
-            - PhD Students Seminar (PSE)
+**2024**  
+- 21st Occasional Workshop in Environmental and Resource Economics (UC Santa Barbara)
+- emLab Roundtable Discussion (UC Santa Barbara)
+- Journées Microéconomie Appliquée (Lille, France)
+- Doctorissimes Conference (Paris, France)
+- Occasional Empirical Environmental Group Seminar (PSE)
+- 2024 FAERE Doctoral Workshop (Annecy, France)
+
+**2023**
+- 11th Mannheim Conference on Energy and the Environment (Mannheim, Germany)
+- 10th FAERE annual conference (Montpellier, France)
+- PhD Students Seminar (PSE)
 
 <!-- Add more talks as needed -->
