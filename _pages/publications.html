@@ -12,18 +12,45 @@ author_profile: true
 <h2>Working Papers</h2>
 <ul>
 {% for post in site.publications reversed %}
-  <li>
-    <strong>{{ post.title }}</strong><br>
-    {% if post.authors.size > 0 %}
-      {% if post.authors.size == 1 %}
-        <em>with {{ post.authors[0] }}</em><br>
-      {% elsif post.authors.size == 2 %}
-        <em>with {{ post.authors[0] }} and {{ post.authors[1] }}</em><br>
-      {% else %}
-        <em>with {{ post.authors[0] }} and {{ post.authors[1] }} and {{ post.authors.size | minus: 2 }} others</em><br>
+  {% if post.category == "working_papers" %}
+    <li>
+      <strong>{{ post.title }}</strong><br>
+      {% if post.authors.size > 0 %}
+        {% if post.authors.size == 1 %}
+          <em>with {{ post.authors[0] }}</em><br>
+        {% elsif post.authors.size == 2 %}
+          <em>with {{ post.authors[0] }} and {{ post.authors[1] }}</em><br>
+        {% else %}
+          <em>with {{ post.authors[0] }} and {{ post.authors[1] }} and {{ post.authors.size | minus: 2 }} others</em><br>
+        {% endif %}
       {% endif %}
-    {% endif %}
-    <p><strong>Abstract:</strong> {{ post.excerpt }}</p>
-  </li>
+      {% if post.excerpt %}
+        <p><strong>Abstract:</strong> {{ post.excerpt }}</p>
+      {% endif %}
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<h2>Work in Progress</h2>
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.category == "work_in_progress" %}
+    <li>
+      <strong>{{ post.title }}</strong><br>
+      {% if post.authors.size > 0 %}
+        {% if post.authors.size == 1 %}
+          <em>with {{ post.authors[0] }}</em><br>
+        {% elsif post.authors.size == 2 %}
+          <em>with {{ post.authors[0] }} and {{ post.authors[1] }}</em><br>
+        {% else %}
+          <em>with {{ post.authors[0] }} and {{ post.authors[1] }} and {{ post.authors.size | minus: 2 }} others</em><br>
+        {% endif %}
+      {% endif %}
+      {% if post.excerpt %}
+        <p><strong>Abstract:</strong> {{ post.excerpt }}</p>
+      {% endif %}
+    </li>
+  {% endif %}
 {% endfor %}
 </ul>
