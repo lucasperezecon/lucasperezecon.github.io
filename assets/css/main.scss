@@ -40,9 +40,10 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-.author__avatar, .avatar {
-    border-radius: 0; /* Removes oval shape */
-    width: 150px; /* Adjust width to desired size */
-    height: auto; /* Maintains the original aspect ratio */
-    object-fit: cover; /* Optional: Crops the image if necessary */
+/* Replace .author__avatar with the class you see in Developer Tools */
+img.author__avatar, .avatar {
+    border-radius: 0 !important;
+    width: 150px !important;
+    height: auto !important;
+    object-fit: cover !important;
 }
