@@ -23,8 +23,8 @@ author_profile: true
     - 2024 FAERE Doctoral Workshop (Annecy, France)
 
 - **2023**
-    - 11th Mannheim Conference on Energy and the Environment
-    - 10th FAERE annual conference
-    - PSE PhD Students Seminar
+    - 11th Mannheim Conference on Energy and the Environment (Mannheim, Germany)
+    - 10th FAERE annual conference (Montpellier, France)
+    - PhD Students Seminar (PSE)
 
 <!-- Add more talks as needed -->
