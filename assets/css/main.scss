@@ -39,3 +39,9 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.profile-picture {
+    border-radius: 0;
+    width: 150px; // Adjust the width as needed
+    height: auto; // Keeps aspect ratio
+}
