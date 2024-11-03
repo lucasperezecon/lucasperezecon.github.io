@@ -9,6 +9,9 @@ author_profile: true
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 {% endif %}
 
+<div style="padding-left: 40px;">  <!-- Adjust padding-left to shift content -->
+    <h2>Talks and Presentations</h2>
+    
 ## Talks and Presentations
 
 <!-- You can use Markdown for each talk entry, and HTML for styling if needed -->
