@@ -9,10 +9,13 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-<!-- Simple List of Publications -->
-<h2> Working Papers </h2>
+<h2>Working Papers</h2>
 <ul>
 {% for post in site.publications reversed %}
-  <li>{{ post.title }}</li>
+  <li>
+    <strong>{{ post.title }}</strong><br>
+    <em>Co-authors: {{ post.authors | join: ', ' }}</em><br>
+    <p><strong>Abstract:</strong> {{ post.excerpt }}</p>
+  </li>
 {% endfor %}
 </ul>
