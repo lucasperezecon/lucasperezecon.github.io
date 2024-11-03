@@ -9,10 +9,13 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
+{% assign working_papers = site.publications | where: "category", "working_papers" %}
+{% assign work_in_progress = site.publications | where: "category", "work_in_progress" %}
+
+{% if working_papers.size > 0 %}
 <h2>Working Papers</h2>
 <ul>
-{% for post in site.publications reversed %}
-  {% if post.category == "working_papers" %}
+{% for post in working_papers reversed %}
     <li>
       <strong>{{ post.title }}</strong><br>
       {% if post.authors.size > 0 %}
@@ -28,14 +31,14 @@ author_profile: true
         <p><strong>Abstract:</strong> {{ post.excerpt }}</p>
       {% endif %}
     </li>
-  {% endif %}
 {% endfor %}
 </ul>
+{% endif %}
 
+{% if work_in_progress.size > 0 %}
 <h2>Work in Progress</h2>
 <ul>
-{% for post in site.publications reversed %}
-  {% if post.category == "work_in_progress" %}
+{% for post in work_in_progress reversed %}
     <li>
       <strong>{{ post.title }}</strong><br>
       {% if post.authors.size > 0 %}
@@ -51,6 +54,6 @@ author_profile: true
         <p><strong>Abstract:</strong> {{ post.excerpt }}</p>
       {% endif %}
     </li>
-  {% endif %}
 {% endfor %}
 </ul>
+{% endif %}
