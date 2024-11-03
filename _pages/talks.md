@@ -25,6 +25,6 @@ author_profile: true
 - **2023**
     - 11th Mannheim Conference on Energy and the Environment
     - 10th FAERE annual conference
-    - - PSE PhD Students Seminar
+    - PSE PhD Students Seminar
 
 <!-- Add more talks as needed -->
