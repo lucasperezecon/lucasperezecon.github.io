@@ -82,7 +82,10 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-
+  workingpaper:
+    title: 'Working Papers'
+  workinprogress:
+    title: 'Selected work in progress'
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -283,7 +286,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: research
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
