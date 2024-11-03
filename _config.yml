@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Lucas Perez"
+title                    : "Lucas P"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -22,11 +22,11 @@ repository               : "lucasperezgallega/lucasperezgallega.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Lucas Perez"
+  name             : "Lucas P"
   pronouns         : # example: "she/her"  
   bio              : #"Short biography for the left-hand sidebar"
-  location         : "Paris, France"
-  employer         : "Paris School of Economics & Université Paris 1 Panthéon Sorbonne"
+  location         : "Ville,"
+  employer         : "TEST"
   uri              : # URL
   email            : "none@example.org" 
 
