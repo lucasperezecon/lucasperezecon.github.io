@@ -11,19 +11,8 @@ author_profile: true
 
 <h2>Talks and Presentations</h2>
 
-> - **Title of Talk 1**  
->   *Event:* Conference Name, City  
->   *Date:* Month Year  
->   Brief description of the talk or key points covered.
->
-> - **Title of Talk 2**  
->   *Event:* Conference Name, City  
->   *Date:* Month Year  
->   Brief description of the talk.
->
-> - **Title of Talk 3**  
->   *Event:* Another Conference, Different City  
->   *Date:* Month Year  
->   Summary of the topic and any special notes.
+**2024**
+  - Talk 1
+
 
 > <!-- Add more talks as needed -->
