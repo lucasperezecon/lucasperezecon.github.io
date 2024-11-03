@@ -9,6 +9,10 @@ author_profile: true
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 {% endif %}
 
+<h2 style="margin-left: 40px;">Talks and Presentations</h2>
+
+<div style="margin-left: 40px;"> <!-- Add left margin to push content to the right -->
+
 
 ## Talks and Presentations
 
