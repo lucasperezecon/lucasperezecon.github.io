@@ -1,18 +1,26 @@
 ---
-layout: page  # or "archive" if you prefer that styling
-title: "Talks and Presentations"
+layout: archive
+title: "Talks"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-{% endif %}
+<div class="teaching">
+  
+  <h3>2024</h3>
+  <ul>
+    <li>21st Occasional Workshop in Environmental and Resource Economics (UC Santa Barbara)</li>
+    <li>emLab Roundtable Discussion (UC Santa Barbara)</li>
+    <li>Journées Microéconomie Appliquée (Lille, France)</li>
+    <li>Doctorissimes Conference (Paris, France)</li>
+    <li>Occasional Empirical Environmental Group Seminar (PSE)</li>
+    <li>2024 FAERE Doctoral Workshop (Annecy, France)</li>
+  </ul>
 
-<h2>Talks and Presentations</h2>
-
-**2024**
-  - Talk 1
-
-
-> <!-- Add more talks as needed -->
+  <h3>2023</h3>
+  <ul>
+    <li>11th Mannheim Conference on Energy and the Environment</li>
+    <li>10th FAERE annual conference</li>
+    <li>PSE PhD Students Seminar</li>
+  </ul>
+</div>
