@@ -42,7 +42,7 @@
 
 /* Increase specificity */
 div.author__avatar img {
-    border-radius: 50% !important; /* Force rectangle shape */
+    border-radius: 50%; /* Force rectangle shape */
     width: auto;
     height: auto;
     box-shadow: none !important; /* Remove any box-shadow */
