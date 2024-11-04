@@ -22,7 +22,6 @@ author_profile: true
     <li>Summer 2020: Research Assistant, Center for Research in Economics and Statistics (CREST), Palaiseau, France</li>
     <li>Summer 2019: Observatoire Français des Conjonctures Economiques (OFCE), Paris, France</li>
   </ul>
-</div>
 
   <h3>Grants</h3>
   <ul>
