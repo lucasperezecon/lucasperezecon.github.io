@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "cat.jpg"
   name             : "Lucas Perez"
-  pronouns         : "he/him" 
+  pronouns         : #"he/him" 
   bio              : #"Short biography for the left-hand sidebar"
   location         : "Paris, France"
   employer         : "Paris School of Economics"
