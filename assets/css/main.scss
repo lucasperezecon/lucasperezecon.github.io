@@ -39,11 +39,3 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-
-/* Increase specificity */
-div.author__avatar img {
-    border-radius: 50%; /* Force rectangle shape */
-    width: auto;
-    height: auto;
-    box-shadow: none !important; /* Remove any box-shadow */
-}
