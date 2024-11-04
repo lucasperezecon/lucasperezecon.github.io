@@ -9,18 +9,17 @@ author_profile: true
   
   <h3>Education</h3>
   <ul>
-    <li>21st Occasional Workshop in Environmental and Resource Economics (UC Santa Barbara)</li>
-    <li>emLab Roundtable Discussion (UC Santa Barbara)</li>
-    <li>Journées Microéconomie Appliquée (Lille, France)</li>
-    <li>Doctorissimes Conference (Paris, France)</li>
-    <li>Occasional Empirical Environmental Group Seminar (PSE)</li>
-    <li>2024 FAERE Doctoral Workshop (Annecy, France)</li>
+    <li>2022 - Present: PhD in Economics, Paris School of Economics and Université Paris 1 Panthéon Sorbonne</li>
+    <li>Fall 2024: Visiting Scholar at University of California Santa Barbara</li>
+    <li>2018 - 2022: Ecole Normale Supérieure (ENS) Paris Saclay</li>
+    <li>2020 - 2021: Master 2 Analysis and Policy in Economics, Paris School of Economics</li>
+    <li>2019 - 2020: Master in Economics, first year of MSc. degree (M1), Ecole Polytechnique</li>
   </ul>
 
   <h3>Relevant Experience</h3>
   <ul>
-    <li>11th Mannheim Conference on Energy and the Environment</li>
-    <li>10th FAERE annual conference</li>
-    <li>PSE PhD Students Seminar</li>
+    <li>Sept. 2021 - July 2022: Predoctoral Research Assistant, ZEW − Leibniz Centre for European Economic Research, Mannheim, Germany</li>
+    <li>Summer 2020: Research Assistant, Center for Research in Economics and Statistics (CREST), Palaiseau, France</li>
+    <li>Summer 2019: Observatoire Français des Conjonctures Economiques (OFCE), Paris, France</li>
   </ul>
 </div>
