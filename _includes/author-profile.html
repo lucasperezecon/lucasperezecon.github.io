@@ -8,7 +8,7 @@
 
 <div class="author__avatar" style="border: none; box-shadow: none;">
     {% if author.avatar contains "://" %}
-        <img src="{{ author.avatar }}" alt="{{ author.name }}" style="border: none; outline: none; box-shadow: none; width: auto; height: auto;">
+        <img src="{{ author.avatar }}" alt="{{ author.name }}" style="outline: none; box-shadow: none;border-radius: 50%; width: auto; height: auto;">
     {% else %}
         <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" style="border: none; outline: none; box-shadow: none; border-radius: 0 !important; width: auto; height: auto;">
     {% endif %}
