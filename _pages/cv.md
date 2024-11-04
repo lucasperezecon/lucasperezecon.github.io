@@ -23,3 +23,12 @@ author_profile: true
     <li>Summer 2019: Observatoire Français des Conjonctures Economiques (OFCE), Paris, France</li>
   </ul>
 </div>
+
+  <h3>Grants</h3>
+  <ul>
+    <li>2023: Mobility Grants, Paris School of Economics and Université Paris 1 Panthéon Sorbonne</li>
+    <li>2023: Research Grant, Agence Nationale de la Recherche (ANR-17-EURE-001)/li>
+    <li>2022: PhD Grant - Contrat Doctoral Specifique aux Normaliens, ENS Paris Saclay and Université Paris 1 Panthéon Sorbonne/li>
+    <li>2018: Four years French government full scholarship, ENS Paris-Saclay/li>
+  </ul>
+</div>
