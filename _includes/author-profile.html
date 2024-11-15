@@ -1,64 +1,37 @@
-{% include base_path %}
+{% if page.url == "/" %}
+  <!-- Author profile code that should only appear on the welcome page -->
 
-{% if page.author and site.data.authors[page.author] %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
-{% endif %}
-
-<div itemscope itemtype="http://schema.org/Person" class="author-profile">
-  <div class="author__avatar" style="border: none; box-shadow: none;">
-    {% if author.avatar contains "://" %}
+  <div itemscope itemtype="http://schema.org/Person">
+    <div class="author__avatar" style="border: none; box-shadow: none;">
+      {% if author.avatar contains "://" %}
         <img src="{{ author.avatar }}" alt="{{ author.name }}" style="outline: none; box-shadow: none;border-radius: 50%; width: auto; height: auto;">
-    {% else %}
+      {% else %}
         <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" style="border: none; outline: none; box-shadow: none; border-radius: 0 !important; width: auto; height: auto;">
-    {% endif %}
-  </div>
+      {% endif %}
+    </div>
 
-  <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
-  </div>
+    <div class="author__content">
+      <h3 class="author__name">{{ author.name }}</h3>
+      {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
+      {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    </div>
 
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      {% if author.location %}
-        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
-      {% endif %}
-      {% if author.employer %}
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
-      {% endif %}
-      {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
-      {% endif %}
-      {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
-      {% endif %}
-      {% if author.arxiv %}
-        <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
-      {% endif %}
-      {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
-      {% endif %}
-      {% if author.semantic %}
-        <li><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a></li>
-      {% endif %}
-      {% if author.impactstory %}
-        <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw icon-pad-right"></i>Impactstory</a></li>
-      {% endif %}
-      {% if author.orcid %}
-        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
-      {% endif %}
-      {% if author.pubmed %}
-        <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed ai-fw icon-pad-right"></i>PubMed</a></li>
-      {% endif %}
-      {% if author.researchgate %}
-        <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a></li>
-      {% endif %}
-      {% if author.scopus %}
-        <li><a href="{{ author.scopus }}"><i class="ai ai-scopus icon-pad-right"></i>Scopus</a></li>
-      {% endif %}
-      <!-- Additional social links omitted for brevity -->
-    </ul>
+    <div class="author__urls-wrapper">
+      <button class="btn btn--inverse">Follow</button>
+      <ul class="author__urls social-icons">
+        {% if author.location %}
+          <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
+        {% endif %}
+        {% if author.employer %}
+          <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
+        {% endif %}
+        {% if author.uri %}
+          <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
+        {% endif %}
+        {% if author.email %}
+          <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        {% endif %}
+      </ul>
+    </div>
   </div>
-</div>
+{% endif %}
