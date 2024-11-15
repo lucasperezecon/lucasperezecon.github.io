@@ -23,58 +23,38 @@
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
-      <!-- Font Awesome icons / Biographic information  -->
-      {% if author.location %}
-        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
-      {% endif %}
-      {% if author.employer %}
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
-      {% endif %}
-      {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
-      {% endif %}
-      {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
-      {% endif %}
-      <!-- Other social media links omitted for brevity -->
+      <!-- Social media links omitted for brevity -->
     </ul>
   </div>
 </div>
 
 <style>
-  /* Ensure the image is circular and have a fixed size */
+  /* Circular Avatar for image */
   .author__image {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
     border: none;
-    padding: 0;
   }
 
-  /* Mobile-first design: Stack the content vertically */
+  /* Mobile-first layout (stacking everything vertically) */
   .author__avatar, .author__content, .author__urls-wrapper {
-    display: block;
-    text-align: center; /* Center align for mobile view */
+    text-align: center; /* Center everything on mobile */
     margin-bottom: 20px; /* Space between sections */
   }
 
-  /* Add a media query for larger screens */
+  /* Flex layout for larger screens */
   @media (min-width: 768px) {
     .author__content {
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 10px;
     }
     .author__urls-wrapper {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-    }
-    .author__avatar {
-      display: inline-block;
-      margin-right: 20px;
     }
   }
 </style>
