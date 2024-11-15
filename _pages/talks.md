@@ -19,8 +19,8 @@ author_profile: true
 
   <h3>2023</h3>
   <ul>
-    <li>11th Mannheim Conference on Energy and the Environment</li>
-    <li>10th FAERE annual conference</li>
+    <li>11th Mannheim Conference on Energy and the Environment (Mannheim, Germany)</li>
+    <li>10th FAERE annual conference (Montpellier, France)</li>
     <li>PSE PhD Students Seminar</li>
   </ul>
 </div>
