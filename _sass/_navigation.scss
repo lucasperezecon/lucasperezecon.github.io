@@ -175,17 +175,17 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: $background-color;
+  background: #ff69b4; /* Pink background for the navigation bar */
 
   a {
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
-    color: $masthead-link-color;
+    color: #ffffff; /* White text for contrast */
     text-decoration: none;
 
     &:hover {
-      color: $masthead-link-color-hover;
+      color: #ffe4e1; /* Light pink hover effect */
     }
   }
 
@@ -196,11 +196,12 @@
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: $primary-color;
+    background-color: #ff69b4; /* Pink background for buttons */
     color: #fff;
     cursor: pointer;
     z-index: 100;
   }
+
 
   .visible-links {
     display: table;
