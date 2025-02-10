@@ -1,5 +1,5 @@
 ---
-title: "Air Ball and Air Quality: Effects of Air Pollution over Performance under Pressure"
+title: "Air Ball and Air Quality: How pollution affects workers’ productivity in the short and long run"
 collection: publications
 excerpt: ''
 category: working_papers
