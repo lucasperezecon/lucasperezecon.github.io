@@ -14,7 +14,7 @@ author_profile: true
     <li>2018 - 2022: Ecole Normale Supérieure (ENS) Paris Saclay</li>
     <li>2020 - 2021: Paris School of Economics, Master 2 Analysis and Policy in Economics (M2)</li>
     <li>2019 - 2020: Ecole Polytechnique, Master in Economics, first year of MSc. degree (M1)</li>
-    <li>2016 - 2018: Toulouse School of Economics - Université Toulouse Capitole 1, Bachelor in Economics, first two years of MSc. degree (M1)</li>
+    <li>2016 - 2018: Toulouse School of Economics - Université Toulouse Capitole 1, first two years of Bachelor degree (L2)</li>
   </ul>
 
   <h3>Relevant Experience</h3>
